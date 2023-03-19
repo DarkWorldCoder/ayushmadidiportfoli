@@ -1,0 +1,53 @@
+
+@font-face {
+    font-family: "gilroy-bold";
+    src: url("./assets/fonts/Gilroy-Bold.eot");
+    src: url("./assets/fonts/Gilroy-Bold.woff") format('woff'),
+         url("./assets/fonts/Gilroy-Bold.ttf") format("truetype");
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: "gilroy-regular";
+    src: url("./assets/fonts/Gilroy-Regular.eot");
+    src: url("./assets/fonts/Gilroy-Regular.woff") format('woff'),
+    url("./assets/fonts/Gilroy-Regular.ttf") format("truetype");
+}
+@font-face{
+    font-family: "gilroy-medium";
+    src: url("./assets/fonts/Gilroy-Medium.eot");
+    src: url("./assets/fonts/Gilroy-Medium.woff") format('woff'),
+    url("./assets/fonts/Gilroy-Medium.ttf") format("truetype");
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--font-primary);
+    color: var(--color-p1);
+}
+:root{
+    --font-primary:"gilroy-regular";
+    --font-medium:"gilroy-medium";
+    --font-bold:"gilroy-bold";
+
+
+    // color
+    --color-p1:#232323;
+    --color-p2:#494949;
+}
+
+.container{
+    padding: 20px 100px;
+    @media (max-width:1000px) {
+        padding: 20px 60px;
+    }
+    @media (max-width:768px) {
+        padding: 20px 30px;
+    }
+    @media (max-width:768px) {
+        padding: 10px 5px;
+    }
+}

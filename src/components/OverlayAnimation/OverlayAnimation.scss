@@ -1,0 +1,40 @@
+.overlay_animation{
+    position: fixed;
+    overflow: none;
+    z-index: 111111;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #242424;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .overlay_content{
+        z-index: 11111111;
+        height: 200px;
+        width: 200px;
+        color: white;
+        background: conic-gradient(white 3.6deg, black 0deg);
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 24px;
+        line-height: 30px;
+        font-family: var(--font-bold);
+        &::after{
+            width: 180px;
+            height: 180px;
+            background-color: black;
+            z-index:111111111;
+            color: white;
+            content: "Ayushma";
+            position: absolute;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+}

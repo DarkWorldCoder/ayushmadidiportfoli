@@ -1,0 +1,26 @@
+.navbar{
+    display: flex;
+    // height: 100px;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    height: 120px;
+    z-index: 1111;
+    width: 100%;
+    .navbar_right{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        h3{
+            color: var(--color-p1);
+            font-size: 24px;
+            line-height: 30px;
+            @media (max-width:768px) {
+                font-size: 18px;
+            }
+        }
+
+    }
+}
