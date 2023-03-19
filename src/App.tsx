@@ -18,20 +18,25 @@ function App() {
     //   setShowOverlay(false)
     //   document.body.style.overflow="auto"
     // },5000)
-  },[])
+  })
   const hideOverlay= ()=>{
     setShowOverlay(false)
   }
   return (
    <div className='app'>
-    {showOverlay &&  <OverlayAnimation
+    {showOverlay ?  <OverlayAnimation
     hideOverlay={hideOverlay}
-    /> }
-   
-    <Navbar />
-    <Hero />
-    <Work />
-    <Footer />
+    />:
+    (
+      <>
+      <Navbar />
+      <Hero />
+      <Work />
+      <Footer />
+      </>
+    )
+    }
+
    </div>
   )
 }

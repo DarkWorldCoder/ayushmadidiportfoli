@@ -1,9 +1,9 @@
 import React from 'react'
-import work_main from "../../assets/project_leanq.svg"
-import project_ebs from "../../assets/project_ebs.svg"
-import project_bluemuf from "../../assets/project_bluemuf.svg"
+import work_main from "../../assets/project_leanq.png"
+import project_ebs from "../../assets/project_ebs.png"
+import project_bluemuf from "../../assets/project_bluemuf.png"
 import granthi_app from "../../assets/granthi_app.svg"
-import mobile_app from "../../assets/116.svg"
+import mobile_app from "../../assets/116.png"
 import petra_app from "../../assets/petra.svg"
 import "./Work.scss"
 const Work = () => {
