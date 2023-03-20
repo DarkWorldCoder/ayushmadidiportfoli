@@ -1,7 +1,13 @@
+.main_wrap{
+    display: flex;
+    width: 100vh;
+    height: 100vh;
+
+}
 .overlay_animation{
     position: fixed;
     overflow: none;
-    z-index: 111111;
+    // z-index: 111111;
     top: 0;
     bottom: 0;
     left: 0;
@@ -11,7 +17,7 @@
     justify-content: center;
     align-items: center;
     .overlay_content{
-        z-index: 11111111;
+        // z-index: 11111111;
         height: 200px;
         width: 200px;
         color: white;
@@ -36,5 +42,52 @@
             justify-content: center;
             align-items: center;
         }
+    }
+}
+
+.transition{
+    // transition: all .2s cubic-bezier(0.075, 0.82, 0.165, 1) all;
+
+    animation-name: overlay_leave;
+    animation-timing-function: .3s;
+    animation-duration: 1s;
+
+    &::before{
+        content: "";
+        width: 200px;
+        height: 200px;
+        background-color: transparent;
+        border-radius: 25%;
+    }
+    
+}
+
+@keyframes overlay_leave {
+    0%{
+     
+        transform: rotateX('90');
+    }
+    10%{
+        background-color: green;
+        transform: rotateX('100');
+
+    }
+    25%{
+        background-color: #242424;
+        transform: rotateX('130');
+
+    }
+    50%{
+        background-color: blue;
+        transform: rotateX('180');
+
+    }
+    75%{
+        transform: rotateX('270');
+
+    }
+    100%{
+        transform: rotateX('360');
+
     }
 }
