@@ -30,7 +30,7 @@ const Work = () => {
             <div className='work_info'>
                 <h1>Shop EBS</h1>
                 <h3>Logo, Branding, Design System, Website</h3>
-                <p>ShopEbs is an e-commerce website  platform that allows businesses to sell their products or services online. It is a website that provides a digital storefront where customers can browse, select, and purchase products or services. </p>
+                <p>ShopEbs is an e-commerce website  platform that allows businesses to sell their products or services online. It is a website that provides a digital storefront.</p>
                 <a href='https://shopebs.bluemuffinstudio.com.au/'>View Project</a> 
             </div>
         </motion.div>
@@ -42,7 +42,7 @@ const Work = () => {
             <div className='work_info'>
                 <h1>Blue Muffin Studio</h1>
                 <h3>Logo, Branding, Design System, Website</h3>
-                <p>Blue Muffin Studio is a digital agency that offers digital marketing, branding, and web development services to help businesses establish and enhance their online presence, create digital marketing strategies, and build websites and apps.</p>
+                <p>Blue Muffin Studio is a digital agency that offers digital marketing, branding, and web development services to help businesses establish and enhance their online presence.</p>
                 <a href='https://bluemuffinstudio.com.au/'>View Project</a> 
             </div>
         </motion.div>
