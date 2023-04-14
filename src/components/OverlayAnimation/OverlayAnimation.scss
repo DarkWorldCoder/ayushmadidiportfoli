@@ -18,8 +18,8 @@
     align-items: center;
     .overlay_content{
         // z-index: 11111111;
-        height: 160px;
-        width: 160px;
+        height: 147px;
+        width: 147px;
         color: white;
         background: conic-gradient(white 3.6deg, black 0deg);
         border-radius: 50%;
@@ -39,6 +39,8 @@
             position: absolute;
             border-radius: 50%;
             display: flex;
+            font-size: 18px;
+            // padding: 5px;
             justify-content: center;
             align-items: center;
         }
