@@ -2,6 +2,7 @@ import React from 'react'
 import logo from "../../assets/logo.svg"
 import "./Navbar.scss"
 import msgIcon from "../../assets/msg.svg"
+
 type Props = {}
 
 const Navbar = (props: Props) => {
@@ -13,8 +14,7 @@ const Navbar = (props: Props) => {
             <img src={logo} alt="Logo" />
         </div>
         <div className='navbar_right'>
-          <h3>Contact</h3>
-          <img src={msgIcon} />
+          <a href="../../assets/AayushmaResume.pdf" download>Download CV</a>
         </div>
 
     </nav>

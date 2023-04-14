@@ -11,7 +11,7 @@ const OverlayAnimation = (props: Props) => {
   const ref = useRef<HTMLDivElement>(null)
   const mainRef = useRef<HTMLDivElement>(null)
 let progress = setInterval(()=>{
-         progressValue +=3
+         progressValue +=10
         
         if(ref.current){
             

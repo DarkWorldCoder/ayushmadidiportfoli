@@ -10,7 +10,7 @@
         width: 80%;
         display: flex;
         justify-content: center;
-        align-items: center;
+        // align-items: center;
         flex-direction: column;
         @media (max-width:1200px) {
             width: 90%;
@@ -45,7 +45,7 @@
         }
         p{
             margin-top: 20px;
-            width: 50%;
+            width: 100%;
             color: #535353;
             font-size: 18px;
             line-height: 27px;
@@ -164,7 +164,7 @@
             h4{
                 font-size: 20px;
                 line-height: 26px;
-                margin-top: 20px;
+                margin-top: 10px;
                 font-family: var(--font-medium);
             }
             a{
@@ -173,7 +173,7 @@
                 font-size: 18px;
                 line-height: 20px;
                 font-family: var(--font-medium);
-                margin-top: 20px;
+                margin-top: 10px;
                 
             }
             img{
