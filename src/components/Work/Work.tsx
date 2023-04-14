@@ -64,7 +64,7 @@ const Work = () => {
         </div>
         <div className='app_wrapper wrap_second'>
         <img src={mobile_app} />
-         <h2>116 App</h2>
+         <h2>1166 App</h2>
          <h4>Mobile Application</h4>
          <a href="https://1166.leanq.com.np/">View Project</a>
          
