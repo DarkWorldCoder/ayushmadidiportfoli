@@ -44,7 +44,12 @@
         font-size: 24px;
         color: #9859FF;
         font-family: var(--font-bold);
-
+        transition: all .2s cubic-bezier(0.075, 0.82, 0.165, 1) ease;
+         &:hover{
+            background-color: #9859FF;
+            color: white;
+            transform: scale(1.03);
+         }
         @media (max-width:1000px) {
             width: 100px;
             height: 100px;
