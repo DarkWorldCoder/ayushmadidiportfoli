@@ -14,8 +14,7 @@ const Hero = (props: Props) => {
          whileInView={{ opacity: [0, 1],y:[100,0]}}
          transition={{ duration: 0.4}}
         >Aayushma Rajkarnikar</motion.h1>
-        <p>A UI/UX Designer, I take complex problems and simplify</p>
-        <p> them delivering valuable products</p>
+        <p>An UI/UX Designer, I am passionate about creating digital experiences that are both visually appealing and user-friendly. With a strong background in designing for various industries, I am experienced in conducting user research and usability testing to ensure that my designs meet user needs and preferences. My design philosophy is centered around the user experience, and I am committed to creating designs that are accessible, inclusive, and meet the needs of diverse audiences.</p>
 
         <div className='line_container'>
             <div className='vr_line'></div>
