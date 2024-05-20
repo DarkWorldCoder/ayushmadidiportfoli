@@ -1,22 +1,38 @@
 import React from 'react'
 import work_main from "../../assets/project_leanq.png"
+
 import project_ebs from "../../assets/project_ebs.png"
 import project_bluemuf from "../../assets/project_bluemuf.png"
 import granthi_app from "../../assets/granthi_app.svg"
 import mobile_app from "../../assets/116.png"
 import petra_app from "../../assets/petra.svg"
+import belong from "../../assets/belong.png"
+
 import "./Work.scss"
 import {motion} from "framer-motion"
 const Work = () => {
   return (
     <div className='work_container container'>
-        <motion.div
+          <motion.div
          whileInView={{ opacity: [0, 1],y:[-100,0]}}
          transition={{ duration: 0.4}}
         className='work_main'>
+            <img src={belong} />
+            <div className='work_info'>
+                <h1>Belong Technology</h1>
+                <h3>Logo, Branding, Design System, Admin Panel</h3>
+                <p>Belong Technology is a white label, fully customizable product for property management. Belong Technology has been helping Australia’s first co-living operator and revolutionize their resident experience.</p>
+                <a href='https://leanq.digital'>View Project</a> 
+            </div>
+        </motion.div>
+    
+        <motion.div 
+        whileInView={{ opacity: [0, 1],x:[-100,0]}}
+        transition={{ duration: 0.5 }}
+        className='work_other work_reverse'>
             <img src={work_main} />
             <div className='work_info'>
-                <h1>Lean Q Digitals</h1>
+                <h1>Lean Q Digital</h1>
                 <h3>Logo, Branding, Design System, Website</h3>
                 <p>LeanQ is a software company that focuses on creating software solutions, services, and goods. Lean q is centered on offering fresh concepts and a vision for upending industries or resolving particular issues by creating a minimal viable product.</p>
                 <a href='https://leanq.digital'>View Project</a> 
@@ -31,7 +47,7 @@ const Work = () => {
                 <h1>Shop EBS</h1>
                 <h3>Logo, Branding, Design System, Website</h3>
                 <p>ShopEbs is an e-commerce website  platform that allows businesses to sell their products or services online. It is a website that provides a digital storefront.</p>
-                <a href='https://shopebs.bluemuffinstudio.com.au/'>View Project</a> 
+                <a href='https://www.behance.net/gallery/163666631/E-commerce-Website'>View Project</a> 
             </div>
         </motion.div>
         <motion.div 
@@ -66,7 +82,7 @@ const Work = () => {
         <img src={mobile_app} />
          <h2>1166 App</h2>
          <h4>Mobile Application</h4>
-         <a href="https://1166.leanq.com.np/">View Project</a>
+         <a href="https://www.behance.net/gallery/198628685/Health-Care-Application">View Project</a>
          
         </div>
         <div className='app_wrapper'>

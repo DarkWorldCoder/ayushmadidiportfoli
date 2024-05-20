@@ -29,10 +29,10 @@
     .work_info{
         display: flex;
         
-        margin-top: 40px;
+        margin-top: 80px;
         flex-direction: column;
         @media (max-width:768px) {
-            margin-top: 30px;
+            margin-top: 80px;
         }
         h1{
             font-size: 32px;
@@ -69,7 +69,7 @@
 
     .work_other{
         width: 80%;
-        margin-top: 150px;
+        margin-top: 50px;
         display: flex;
         gap: 90px;
         @media (max-width:1200px) {
