@@ -22,7 +22,7 @@ const Work = () => {
                 <h1>Belong Technology</h1>
                 <h3>Logo, Branding, Design System, Admin Panel</h3>
                 <p>Belong Technology is a white label, fully customizable product for property management. Belong Technology has been helping Australia’s first co-living operator and revolutionize their resident experience.</p>
-                <a href='https://asset.cloudinary.com/ayushniroula/e3788a98404c31fd504f2f0fb91a3356'>View Project</a> 
+                <a href='https://res.cloudinary.com/ayushniroula/image/upload/v1723046424/ayushmadidi/Belong_rd5iq3.pdf'>View Project</a> 
             </div>
         </motion.div>
     
